@@ -1,4 +1,4 @@
-package com.simplilearn.first.basic;
+package com.simplilearn.phase1.basic;
 
 public class HelloWorld {
 	
