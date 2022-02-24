@@ -1,0 +1,68 @@
+  <web-app>
+  
+<!--   <display-name>Second Project</display-name> -->
+  
+<!--   <welcome-file-list> -->
+<!--   		<welcome-file>index2.html</welcome-file> -->
+<!--   </welcome-file-list> -->
+   
+   <servlet>
+  		<servlet-name>AdditionTwoNum</servlet-name>
+  		<servlet-class>com.rowdy.AddTwoNumber</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>AdditionTwoNum</servlet-name>
+		<url-pattern>/addition</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>
+  		<servlet-name>loginDemo</servlet-name>
+  		<servlet-class>com.rowdy.LoginDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>loginDemo</servlet-name>
+		<url-pattern>/login</url-pattern>  
+  </servlet-mapping>
+  
+  
+<!--   Mapping For WelcomePrakash -->
+  <servlet>
+  		<servlet-name>me</servlet-name>
+  		<servlet-class>com.rowdy.WelcomePrakash</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>me</servlet-name>
+		<url-pattern>/MappingUrl</url-pattern>  
+  </servlet-mapping>
+  
+  
+<!--   For ValidatingLogin -->
+<servlet>
+  		<servlet-name>me</servlet-name>
+  		<servlet-class>com.rowdy.ValidatingLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>me</servlet-name>
+		<url-pattern>/urlmap1</url-pattern>  
+  </servlet-mapping>
+
+
+  
+  
+<!--   <servlet> -->
+  
+<!--   		<servlet-name>abd</servlet-name> -->
+<!--   		<servlet-class>com.rowdy.GenericDemo</servlet-class> -->
+  
+<!--   </servlet> -->
+<!--   <servlet-mapping> -->
+  
+<!--   		<servlet-name>abd</servlet-name> -->
+<!-- 		<url-pattern>/register</url-pattern>   -->
+  
+  
+<!--   </servlet-mapping> -->
+  
+  </web-app>
+  
+  
